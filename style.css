@@ -1,0 +1,84 @@
+/* Definições Globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Cabeçalho */
+header {
+    position: relative;
+}
+
+.imagem-noivos {
+    position: relative;
+}
+
+.imagem-noivos img {
+    width: 100%; /* A imagem ocupa toda a largura da tela */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.nomes {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 3em; /* Ajuste o tamanho conforme necessário */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para melhor legibilidade */
+}
+
+/* Navegação */
+nav {
+    margin: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #4c8866; /* Tom de verde */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #2E8B57; /* Tom de verde mais escuro */
+}
+
+/* Seções */
+section {
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #f0fff0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+    color: #4c8866; /* Tom de verde */
+    margin-bottom: 15px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #777;
+}
